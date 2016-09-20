@@ -1,0 +1,605 @@
+@charset "utf-8";
+@import url("webfonts/Agency/stylesheet.css");
+@import url("Agency_FB/stylesheet.css");
+
+
+.header {
+	background-image: url(Images/HaN_Background.png);
+	height: 175px;
+	position: relative;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background-repeat: no-repeat;
+	background-position: center 0%;
+	top: -9px;
+}
+.nav {
+	position: relative;
+	font-family: Agency;
+	font-size: x-large;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 19px;
+	background-position: center 0%;
+
+}
+.navHome {
+	padding-left: 1px;
+	padding-right: 3px;
+	left: auto;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	color: #001F9F;
+}
+.navAbout {
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 3px;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	color: #001F9F;
+}
+.navMembership {
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	color: #001F9F;
+}
+.navEvents {
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 3px;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	color: #001F9F;
+}
+.navContact {
+	padding-left: 3px;
+	padding-right: 3px;
+	text-decoration: none;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+	color: #001F9F;
+}
+.navBlog {
+	text-decoration: none;
+	padding-left: 3px;
+	padding-right: 3px;
+	-webkit-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+	color: #001F9F;
+}
+.headerImage {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 17px;
+}
+.body {
+	display: block;
+	background-attachment: fixed;
+	background-position: center 0%;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-bottom: 5%;
+	height: 1080px;
+	background-image: url(Images/Background.png);
+}
+.username {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	max-width: 212px;
+	right: -371px;
+	top: -105px;
+	color: #CA9B4A;
+	font-family: "Agency FB";
+	font-size: large;
+}
+.password {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	max-width: 212px;
+	right: -374px;
+	top: -113px;
+	color: #CA9B4A;
+	font-family: "Agency FB";
+	font-size: large;
+}
+.footer {
+	height: 80px;
+	text-align: center;
+	color: #CA9B4A;
+	background-image: url(Images/HaN_Footer_Background.png);
+	display: block;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	position: relative;
+	
+}
+.footerText {
+	font-family: Agency;
+	position: relative;
+	top: 15px;
+}
+.slider {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13px;
+}
+.welcomeText {
+	width: 560px;
+	position: relative;
+	text-align: left;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	left: -134px;
+	top: -249px;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: large;
+	height: 292px;
+}
+.membersAreaButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 300px;
+	top: 50px;
+	
+}
+.volunteerButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 300px;
+	top: 60px;
+}
+.homeSeparator {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom: 250px;
+}
+.bottomQuickAccessButtons {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	bottom: 245px;
+	position: relative;
+}
+.applyQAButton {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.sororityHistoryQAButton {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.chapterHistoryQAButton {
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.signInButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 440px;
+	top: -123px;
+}
+.navAbout:visited {
+	color: #001f9f;
+}
+.navBlog:visited {
+	color: #001f9f;
+}
+.navContact:visited {
+	color: #001f9f;
+}
+.navEvents:visited {
+	color: #001f9f;
+}
+.navHome:visited {
+	color: #001f9f;
+}
+.navMembership:visited {
+	color: #001f9f;
+}
+.navAbout:hover {
+	color: #CA9B4A;
+}
+.navBlog:hover {
+	color: #CA9B4A;
+}
+.navContact:hover {
+	color: #CA9B4A;
+}
+.navEvents:hover {
+	color: #CA9B4A;
+}
+.navHome:hover {
+	color: #CA9B4A;
+}
+.navMembership:hover {
+	color: #CA9B4A;
+}
+
+.navDropdownChapHistory {
+	color: #001F9F;
+	font-family: "Agency FB";
+	text-decoration: none;
+	text-align: center;
+	font-size: x-large;
+	top: 5px;
+	position: relative;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+}
+
+.navDropdownSoroHistory {
+	color: #001F9F;
+	font-family: "Agency FB";
+	text-decoration: none;
+	text-align: center;
+	font-size: x-large;
+	top: 10px;
+	position: relative;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+}
+
+.navDropdownLeadership {
+	color: #001F9F;
+	font-family: "Agency FB";
+	text-decoration: none;
+	text-align: center;
+	font-size: x-large;
+	position: relative;
+	top: 15px;
+	-webkit-transition: all .3s ease-in-out 0s;
+	-o-transition: all .3s ease-in-out 0s;
+	transition: all .3s ease-in-out 0s;
+}
+
+/* Testing Dropdown Menu */
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #FFFFFF;
+	min-width: 90px;
+	text-align: center;
+	font-size: large;
+	line-height: 20px;
+	-webkit-box-shadow: 3px 3px 4px 0px #000000;
+	box-shadow: 3px 3px 4px 0px #000000;
+	top: 30px;
+	height: 90px;
+	width: 140px;
+	left: -40px;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.navDropdownChapHistory:hover {
+	color: #CA9B4A;
+}
+.navDropdownLeadership:hover {
+	color: #CA9B4A;
+}
+.navDropdownSoroHistory:hover {
+	color: #CA9B4A;
+}
+.chapterHistoryHeader {
+	color: #001F9F;
+	font-family: Agency;
+	font-size: 40px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 360px;
+	width: 1024px;
+}
+.chapHistoryEISLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -63px;
+}
+.chapterHistoryBeginning {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 107px;
+	text-align: center;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: large;
+	width: 1024px;
+}
+.headerWhoAreWe {
+	width: 1024px;
+	color: #001F9F;
+	font-family: Agency;
+	text-align: center;
+	font-size: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 140px;
+}
+.whoAreWeText {
+	width: 1024px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 114px;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: large;
+	text-align: center;
+}
+.ourActvitiesHeader {
+	width: 1024px;
+	color: #001F9F;
+	font-family: Agency;
+	text-align: center;
+	font-size: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 145px;
+}
+.ourActivitiesText {
+	width: 1024px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 119px;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: large;
+	text-align: center;
+}
+.chapterHistorySeparator {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	bottom: -139px;
+}
+.chapterHistoryLearnMoreHeader {
+	width: 1024px;
+	color: #001F9F;
+	font-family: Agency;
+	text-align: center;
+	font-size: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 129px;
+}
+.chapterHistorySororityHistory {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 130px;
+	left: -200px;
+}
+.chapterHistoryLeadership {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -10px;
+	left: 200px;
+}
+
+.chapterHistoryButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 130px;
+	left: -200px;
+}
+.sororityHistorySGRCrest {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: 18px;
+}
+.sororityHistoryFoundationHeader {
+	color: #001F9F;
+	font-family: Agency;
+	font-size: 40px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1024px;
+}
+.sororityHistoryText {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: large;
+	width: 1024px;
+}
+.sororityHistoryHeaders {
+	color: #001F9F;
+	font-family: Agency;
+	font-size: 40px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1024px;
+}
+.leadershipHeaders {
+	color: #001F9F;
+	font-family: Agency;
+	font-size: 40px;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 1024px;
+}
+.leadershipPresident {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.leadershipVicePresident {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.leadershipTechAdvisor {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+
+.leadershipEventCoordinator {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.leadershipPublicRelations {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.leadershipHistorian {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+}
+.leadershipTitles {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	text-align: center;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: large;
+	width: 1024px;
+	bottom: 13px;
+}
+.leadershipSororityHistoryButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -10px;
+	left: 200px;
+}
+.aboutUsHeader {
+	color: #001F9F;
+	font-family: Agency;
+	text-align: center;
+	position: relative;
+	top: 19px;
+}
+.aboutUsText {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #001F9F;
+	font-family: Agency;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	width: 419px;
+}
+.aboutUsChapterHistoryButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: -300px;
+	top: -4px;
+}
+.aboutUsSeparator {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	top: 6px;
+	position: relative;
+}
+.aboutUsWantToLearnMoreHeader {
+	color: #001F9F;
+	font-family: Agency;
+	text-align: center;
+	font-size: 25px;
+}
+.aboutUsSororityHistoryButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	left: 300px;
+	top: -144px;
+}
+.aboutUsLeadershipButton {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -284px;
+}
